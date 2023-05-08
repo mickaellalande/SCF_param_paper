@@ -1,0 +1,17 @@
+name: tf2_v0
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - nodejs[version='>=10.0']
+  - nb_conda_kernels
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - tensorflow
+  - nbresuse
+  - netcdf4
+  - xarray
+  - scipy
+  - dask
+prefix: /home/lalandmi/miniconda3/envs/tf2_v0
